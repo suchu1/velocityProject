@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuitePayTm" thread-count="2" parallel = "classes">
+  <test name="ChromeTest">
+  <parameter name="CrossBrowser" value="Chrome"></parameter>
+    <classes>
+     	 <class name="allCrossBrowserCodes.PaaytmTestNGPaytmRecharge"/>
+       	 <class name="allCrossBrowserCodes.PaytmBookFlight"/>
+	     <class name="allCrossBrowserCodes.PaytmBuyInsuranceLifeAndTerm"/>
+    </classes>
+  </test> <!-- Test_Paytm -->
+  
+  <test name="FirefoxTest">
+  <parameter name="CrossBrowser" value="Chrome"></parameter>
+    <classes>
+    	 <class name="allCrossBrowserCodes.PaaytmTestNGPaytmRecharge"/>
+   	 	 <class name="allCrossBrowserCodes.PaytmBookFlight"/>
+    	 <class name="allCrossBrowserCodes.PaytmBuyInsuranceLifeAndTerm"/>
+    </classes>
+  </test> <!-- Test_Paytm -->
+</suite> <!-- SuitePayTm -->
+  

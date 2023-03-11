@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-03T14:12:36 IST" name="SuitePayTm" finished-at="2023-03-03T14:16:02 IST" duration-ms="205965">
+    <groups>
+    </groups>
+    <test started-at="2023-03-03T14:12:36 IST" name="ChromeTest" finished-at="2023-03-03T14:14:10 IST" duration-ms="94648">
+      <class name="allCrossBrowserCodes.PaytmBookFlight">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:allCrossBrowserCodes.PaytmBookFlight@21de60b4]" started-at="2023-03-03T14:12:47 IST" name="launchBrowser" finished-at="2023-03-03T14:12:50 IST" duration-ms="3832" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPomObject()[pri:0, instance:allCrossBrowserCodes.PaytmBookFlight@21de60b4]" started-at="2023-03-03T14:12:53 IST" name="createPomObject" finished-at="2023-03-03T14:12:53 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPomObject -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:allCrossBrowserCodes.PaytmBookFlight@21de60b4]" started-at="2023-03-03T14:12:53 IST" name="beforeClass" finished-at="2023-03-03T14:13:13 IST" duration-ms="20111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="test()[pri:0, instance:allCrossBrowserCodes.PaytmBookFlight@21de60b4]" started-at="2023-03-03T14:13:13 IST" name="test" finished-at="2023-03-03T14:13:26 IST" duration-ms="12394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:allCrossBrowserCodes.PaytmBookFlight@21de60b4]" started-at="2023-03-03T14:13:26 IST" name="afterMethod" finished-at="2023-03-03T14:13:26 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:allCrossBrowserCodes.PaytmBookFlight@21de60b4]" started-at="2023-03-03T14:13:26 IST" name="afterClass" finished-at="2023-03-03T14:13:26 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:allCrossBrowserCodes.PaytmBookFlight@21de60b4]" started-at="2023-03-03T14:14:10 IST" name="afterTest" finished-at="2023-03-03T14:14:10 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- allCrossBrowserCodes.PaytmBookFlight -->
+      <class name="allCrossBrowserCodes.PaaytmTestNGPaytmRecharge">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:allCrossBrowserCodes.PaaytmTestNGPaytmRecharge@654f0d9c]" started-at="2023-03-03T14:12:36 IST" name="launchBrowser" finished-at="2023-03-03T14:12:47 IST" duration-ms="10712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPomObject()[pri:0, instance:allCrossBrowserCodes.PaaytmTestNGPaytmRecharge@654f0d9c]" started-at="2023-03-03T14:12:53 IST" name="createPomObject" finished-at="2023-03-03T14:12:53 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPomObject -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:allCrossBrowserCodes.PaaytmTestNGPaytmRecharge@654f0d9c]" started-at="2023-03-03T14:12:53 IST" name="beforeClass" finished-at="2023-03-03T14:13:09 IST" duration-ms="15548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="test()[pri:0, instance:allCrossBrowserCodes.PaaytmTestNGPaytmRecharge@654f0d9c]" started-at="2023-03-03T14:13:09 IST" name="test" finished-at="2023-03-03T14:13:12 IST" duration-ms="2910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:allCrossBrowserCodes.PaaytmTestNGPaytmRecharge@654f0d9c]" started-at="2023-03-03T14:13:12 IST" name="afterMethod" finished-at="2023-03-03T14:13:13 IST" duration-ms="1694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:allCrossBrowserCodes.PaaytmTestNGPaytmRecharge@654f0d9c]" started-at="2023-03-03T14:13:13 IST" name="beforeClass" finished-at="2023-03-03T14:13:16 IST" duration-ms="3004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="test2()[pri:0, instance:allCrossBrowserCodes.PaaytmTestNGPaytmRecharge@654f0d9c]" started-at="2023-03-03T14:13:16 IST" name="test2" finished-at="2023-03-03T14:13:19 IST" duration-ms="2325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:allCrossBrowserCodes.PaaytmTestNGPaytmRecharge@654f0d9c]" started-at="2023-03-03T14:13:19 IST" name="afterMethod" finished-at="2023-03-03T14:13:19 IST" duration-ms="475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:allCrossBrowserCodes.PaaytmTestNGPaytmRecharge@654f0d9c]" started-at="2023-03-03T14:13:19 IST" name="afterClass" finished-at="2023-03-03T14:13:31 IST" duration-ms="11435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:allCrossBrowserCodes.PaaytmTestNGPaytmRecharge@654f0d9c]" started-at="2023-03-03T14:14:10 IST" name="afterTest" finished-at="2023-03-03T14:14:10 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- allCrossBrowserCodes.PaaytmTestNGPaytmRecharge -->
+      <class name="allCrossBrowserCodes.PaytmBuyInsuranceLifeAndTerm">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:allCrossBrowserCodes.PaytmBuyInsuranceLifeAndTerm@c267ef4]" started-at="2023-03-03T14:12:50 IST" name="launchBrowser" finished-at="2023-03-03T14:12:53 IST" duration-ms="2724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPomObject()[pri:0, instance:allCrossBrowserCodes.PaytmBuyInsuranceLifeAndTerm@c267ef4]" started-at="2023-03-03T14:13:26 IST" name="createPomObject" finished-at="2023-03-03T14:13:26 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPomObject -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:allCrossBrowserCodes.PaytmBuyInsuranceLifeAndTerm@c267ef4]" started-at="2023-03-03T14:13:26 IST" name="beforeMethod" finished-at="2023-03-03T14:13:35 IST" duration-ms="9592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:allCrossBrowserCodes.PaytmBuyInsuranceLifeAndTerm@c267ef4]" started-at="2023-03-03T14:13:35 IST" name="test1" finished-at="2023-03-03T14:13:43 IST" duration-ms="7201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:allCrossBrowserCodes.PaytmBuyInsuranceLifeAndTerm@c267ef4]" started-at="2023-03-03T14:13:43 IST" name="afterMethod" finished-at="2023-03-03T14:13:44 IST" duration-ms="957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:allCrossBrowserCodes.PaytmBuyInsuranceLifeAndTerm@c267ef4]" started-at="2023-03-03T14:13:44 IST" name="beforeMethod" finished-at="2023-03-03T14:13:57 IST" duration-ms="13015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:0, instance:allCrossBrowserCodes.PaytmBuyInsuranceLifeAndTerm@c267ef4]" started-at="2023-03-03T14:13:57 IST" name="test2" finished-at="2023-03-03T14:14:04 IST" duration-ms="7725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:allCrossBrowserCodes.PaytmBuyInsuranceLifeAndTerm@c267ef4]" started-at="2023-03-03T14:14:04 IST" name="afterMethod" finished-at="2023-03-03T14:14:05 IST" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:allCrossBrowserCodes.PaytmBuyInsuranceLifeAndTerm@c267ef4]" started-at="2023-03-03T14:14:05 IST" name="afterClass" finished-at="2023-03-03T14:14:10 IST" duration-ms="5277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:allCrossBrowserCodes.PaytmBuyInsuranceLifeAndTerm@c267ef4]" started-at="2023-03-03T14:14:10 IST" name="afterTest" finished-at="2023-03-03T14:14:10 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- allCrossBrowserCodes.PaytmBuyInsuranceLifeAndTerm -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-03-03T14:14:11 IST" name="FirefoxTest" finished-at="2023-03-03T14:16:02 IST" duration-ms="111206">
+      <class name="allCrossBrowserCodes.PaytmBookFlight">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:allCrossBrowserCodes.PaytmBookFlight@40ef3420]" started-at="2023-03-03T14:14:12 IST" name="launchBrowser" finished-at="2023-03-03T14:14:14 IST" duration-ms="2240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPomObject()[pri:0, instance:allCrossBrowserCodes.PaytmBookFlight@40ef3420]" started-at="2023-03-03T14:14:21 IST" name="createPomObject" finished-at="2023-03-03T14:14:21 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPomObject -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:allCrossBrowserCodes.PaytmBookFlight@40ef3420]" started-at="2023-03-03T14:14:21 IST" name="beforeClass" finished-at="2023-03-03T14:14:44 IST" duration-ms="23797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="test()[pri:0, instance:allCrossBrowserCodes.PaytmBookFlight@40ef3420]" started-at="2023-03-03T14:14:44 IST" name="test" finished-at="2023-03-03T14:14:53 IST" duration-ms="8580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:allCrossBrowserCodes.PaytmBookFlight@40ef3420]" started-at="2023-03-03T14:14:53 IST" name="afterMethod" finished-at="2023-03-03T14:14:53 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:allCrossBrowserCodes.PaytmBookFlight@40ef3420]" started-at="2023-03-03T14:14:53 IST" name="afterClass" finished-at="2023-03-03T14:14:53 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:allCrossBrowserCodes.PaytmBookFlight@40ef3420]" started-at="2023-03-03T14:16:02 IST" name="afterTest" finished-at="2023-03-03T14:16:02 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- allCrossBrowserCodes.PaytmBookFlight -->
+      <class name="allCrossBrowserCodes.PaaytmTestNGPaytmRecharge">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:allCrossBrowserCodes.PaaytmTestNGPaytmRecharge@479d31f3]" started-at="2023-03-03T14:14:11 IST" name="launchBrowser" finished-at="2023-03-03T14:14:12 IST" duration-ms="1618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPomObject()[pri:0, instance:allCrossBrowserCodes.PaaytmTestNGPaytmRecharge@479d31f3]" started-at="2023-03-03T14:14:21 IST" name="createPomObject" finished-at="2023-03-03T14:14:21 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPomObject -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:allCrossBrowserCodes.PaaytmTestNGPaytmRecharge@479d31f3]" started-at="2023-03-03T14:14:21 IST" name="beforeClass" finished-at="2023-03-03T14:14:41 IST" duration-ms="20621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="test()[pri:0, instance:allCrossBrowserCodes.PaaytmTestNGPaytmRecharge@479d31f3]" started-at="2023-03-03T14:14:41 IST" name="test" finished-at="2023-03-03T14:14:42 IST" duration-ms="957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:allCrossBrowserCodes.PaaytmTestNGPaytmRecharge@479d31f3]" started-at="2023-03-03T14:14:42 IST" name="afterMethod" finished-at="2023-03-03T14:14:43 IST" duration-ms="754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:allCrossBrowserCodes.PaaytmTestNGPaytmRecharge@479d31f3]" started-at="2023-03-03T14:14:43 IST" name="beforeClass" finished-at="2023-03-03T14:14:46 IST" duration-ms="3435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="test2()[pri:0, instance:allCrossBrowserCodes.PaaytmTestNGPaytmRecharge@479d31f3]" started-at="2023-03-03T14:14:46 IST" name="test2" finished-at="2023-03-03T14:14:49 IST" duration-ms="2344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:allCrossBrowserCodes.PaaytmTestNGPaytmRecharge@479d31f3]" started-at="2023-03-03T14:14:49 IST" name="afterMethod" finished-at="2023-03-03T14:14:49 IST" duration-ms="664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:allCrossBrowserCodes.PaaytmTestNGPaytmRecharge@479d31f3]" started-at="2023-03-03T14:14:49 IST" name="afterClass" finished-at="2023-03-03T14:15:01 IST" duration-ms="11101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:allCrossBrowserCodes.PaaytmTestNGPaytmRecharge@479d31f3]" started-at="2023-03-03T14:16:02 IST" name="afterTest" finished-at="2023-03-03T14:16:02 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- allCrossBrowserCodes.PaaytmTestNGPaytmRecharge -->
+      <class name="allCrossBrowserCodes.PaytmBuyInsuranceLifeAndTerm">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:allCrossBrowserCodes.PaytmBuyInsuranceLifeAndTerm@498d318c]" started-at="2023-03-03T14:14:14 IST" name="launchBrowser" finished-at="2023-03-03T14:14:21 IST" duration-ms="6193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPomObject()[pri:0, instance:allCrossBrowserCodes.PaytmBuyInsuranceLifeAndTerm@498d318c]" started-at="2023-03-03T14:14:53 IST" name="createPomObject" finished-at="2023-03-03T14:14:53 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPomObject -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:allCrossBrowserCodes.PaytmBuyInsuranceLifeAndTerm@498d318c]" started-at="2023-03-03T14:14:53 IST" name="beforeMethod" finished-at="2023-03-03T14:15:36 IST" duration-ms="42678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:allCrossBrowserCodes.PaytmBuyInsuranceLifeAndTerm@498d318c]" started-at="2023-03-03T14:15:36 IST" name="test1" finished-at="2023-03-03T14:15:43 IST" duration-ms="7412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:allCrossBrowserCodes.PaytmBuyInsuranceLifeAndTerm@498d318c]" started-at="2023-03-03T14:15:43 IST" name="afterMethod" finished-at="2023-03-03T14:15:44 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:allCrossBrowserCodes.PaytmBuyInsuranceLifeAndTerm@498d318c]" started-at="2023-03-03T14:15:44 IST" name="beforeMethod" finished-at="2023-03-03T14:15:48 IST" duration-ms="4104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:0, instance:allCrossBrowserCodes.PaytmBuyInsuranceLifeAndTerm@498d318c]" started-at="2023-03-03T14:15:48 IST" name="test2" finished-at="2023-03-03T14:15:54 IST" duration-ms="6458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:allCrossBrowserCodes.PaytmBuyInsuranceLifeAndTerm@498d318c]" started-at="2023-03-03T14:15:54 IST" name="afterMethod" finished-at="2023-03-03T14:15:55 IST" duration-ms="589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:allCrossBrowserCodes.PaytmBuyInsuranceLifeAndTerm@498d318c]" started-at="2023-03-03T14:15:55 IST" name="afterClass" finished-at="2023-03-03T14:16:02 IST" duration-ms="6795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:allCrossBrowserCodes.PaytmBuyInsuranceLifeAndTerm@498d318c]" started-at="2023-03-03T14:16:02 IST" name="afterTest" finished-at="2023-03-03T14:16:02 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- allCrossBrowserCodes.PaytmBuyInsuranceLifeAndTerm -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- SuitePayTm -->
+</testng-results>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [Failed suite [Failed suite [Failed suite [SuitePayTm]]]]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="classes" name="ChromeTest(failed)(failed)(failed)(failed)">
+    <parameter name="CrossBrowser" value="Chrome"/>
+    <classes>
+      <class name="allCrossBrowserCodes.PaaytmTestNGPaytmRecharge">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="createPomObject"/>
+          <include name="launchBrowser"/>
+          <include name="beforeClass"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- allCrossBrowserCodes.PaaytmTestNGPaytmRecharge -->
+    </classes>
+  </test> <!-- ChromeTest(failed)(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [SuitePayTm]]]] -->
