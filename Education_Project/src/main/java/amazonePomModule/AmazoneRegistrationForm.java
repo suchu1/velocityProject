@@ -10,7 +10,8 @@ public class AmazoneRegistrationForm {
 	@FindBy (xpath = "//input[@type='text']")
 	private WebElement firstName; 
 
-	@FindBy (xpath = "//input[@autocomplete='tel']")
+//	@FindBy (xpath = "//input[@autocomplete='tel']")
+	@FindBy (xpath = "//input[@autocomplete='tel']11111111")
 	private WebElement phoneNum; 
 	
 	@FindBy (xpath = "//input[@type='email']")
