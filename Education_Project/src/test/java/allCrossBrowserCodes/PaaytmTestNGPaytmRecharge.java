@@ -17,6 +17,9 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
 import base.Browser;
 import paytmPomModule.OnlineRechargeAndPlans;
 import paytmPomModule.PaytmHomePage;
@@ -25,11 +28,14 @@ public class PaaytmTestNGPaytmRecharge extends Browser {
 	private WebDriver driverTest;
 	private PaytmHomePage PaytmHomePage ;
 	private OnlineRechargeAndPlans onlineRechargeAndPlans ;
-	
+	private static ExtentHtmlReporter reporter ;
 	
 	//@Parameters("CrossBrowser")
 	@BeforeTest
-	public void launchBrowser() {            //String browser
+	public void launchBrowser() {    //String browser
+		reporter = new ExtentHtmlReporter("test-output/ExtendReport/Extent.html");
+		ExtentReports extend = new ExtentReports();
+		extend.attachReporter(reporter);
 		System.out.println("BeforeTest");
 		String browser = "Chrome";
 		

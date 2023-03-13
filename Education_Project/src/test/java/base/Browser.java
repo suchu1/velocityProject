@@ -7,13 +7,13 @@ import org.openqa.selenium.opera.OperaDriver;
 
 public class Browser {
 	public static WebDriver OpenChromeBrowser() {
-		System.setProperty("webdriver.chrome.driver", "C:\\SUCHIT FOLDER\\VELOCITY\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "src/test/resources/browserFiles/chromedriver.exe");
 		WebDriver driverTest = new ChromeDriver();
 		return driverTest ;
 	}
 	
 	public static WebDriver OpenFirefoxBrowser() {
-		System.setProperty("webdriver.gecko.driver", "C:\\SUCHIT FOLDER\\VELOCITY\\geckodriver-v0.32.2-win-aarch64.exe");
+		System.setProperty("webdriver.gecko.driver", "src/test/resources/browserFiles/geckodriver-v0.32.2-win-aarch64.exe");
 		WebDriver driverTest = new FirefoxDriver () ;
 		return driverTest ;
 	}

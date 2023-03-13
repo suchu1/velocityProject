@@ -17,6 +17,9 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
 import base.Browser;
 import paytmPomModule.InsuranceDetailsPage;
 import paytmPomModule.InsuranceDetailsPage2;
@@ -32,13 +35,17 @@ public class PaytmBuyInsuranceLifeAndTerm extends Browser {
 	private InsuranceDetailsPage2 insuranceDetailsPage2 ;
 	private TermInsuranceDetails termInsuranceDetails ;
 	String testID ;
+	private static ExtentHtmlReporter reporter ;
 	
-	//@Parameters("CrossBrowser")
+	@Parameters("CrossBrowser")
 	@BeforeTest
 	//here I have put the thread.sleep i need to change that by using the explicit wait
-	public void launchBrowser(){     //String browser
-		System.out.println(); //"@BeforeTest"
-		String browser = "Chrome";
+	public void launchBrowser(String browser){     //String browser
+		reporter = new ExtentHtmlReporter("test-output/ExtendReport/Extent.html");
+		ExtentReports extend = new ExtentReports();
+		extend.attachReporter(reporter);
+		System.out.println("@BeforeTest"); //"@BeforeTest"
+		//String browser = "Chrome";
 		
 		if(browser.equals("Chrome")) {
 			driverTest = OpenChromeBrowser();

@@ -14,6 +14,10 @@ public class Utility {
 		//excel sheet code
 	//both are public and static
 	
+	
+	
+	//file path ("src/test/resources/dataFiles/dataFetch.xlsx")
+	
 	public void captureScreeenshot() throws IOException {
 		TakesScreenshot driver = new ChromeDriver();
 		//code
@@ -23,6 +27,8 @@ public class Utility {
 		String i = "screenshot";
 		File dest = new File("C:\\SUCHIT FOLDER\\VELOCITY\\scrrenshots\\test_"+ i +" "+ timestamp +".jpeg");
 		FileHandler.copy(src, dest);
+		
+		//path for the screenshot--> test-output\failedScreenshot\imageName.jpg
 	}
 	
 	

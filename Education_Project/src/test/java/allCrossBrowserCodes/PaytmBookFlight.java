@@ -16,6 +16,9 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
 import base.Browser;
 import paytmPomModule.FlightTicketDetailsPage;
 import paytmPomModule.MumbaiToDelhiBookFlight;
@@ -26,10 +29,14 @@ public class PaytmBookFlight extends Browser {
  private PaytmHomePage paytmHomePage;
  private FlightTicketDetailsPage flightTicketDetailsPage ;
  private MumbaiToDelhiBookFlight mumbaiToDelhiBookFlight ;
+ private static ExtentHtmlReporter reporter ;
  
     @Parameters("CrossBrowser")
     @BeforeTest
-    public void launchBrowser (String browser) {                     
+    public void launchBrowser (String browser) {  
+    	reporter = new ExtentHtmlReporter("test-output/ExtendReport/Extent.html");
+		ExtentReports extend = new ExtentReports();
+		extend.attachReporter(reporter);
     	System.out.println("BeforeTest");
     	
 		if(browser.equals("Chrome")) {
